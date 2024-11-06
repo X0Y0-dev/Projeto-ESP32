@@ -10,7 +10,7 @@
 
 ## Integrantes: Gustavo Henrique da Silva Santos, Guilherme Silva Moreno, Kauã Daniel de Aguiar Ferreira & Lucas Alves Bernardo 
 
-## Professores Orientadores: <a href="https://br.linkedin.com/in/victorbarq">Dr. Victor Rosetti de Queiroz</a>, <a href="https://br.linkedin.com/in/lucymari">Dra. Lucy Mari Tabuti</a>, <a href="https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/">Dr. Eduardo Savino Gomes</a>, <a href="https://www.linkedin.com/in/remuniz/">Dra. Renata muniz do Nascimento</a>, <a href="https://www.linkedin.com/in/ronaldo-araujo-pinto-3542811a/">Dr. Ronaldo Araujo Pinto</a>
+## Professores Orientadores: <a href="https://br.linkedin.com/in/victorbarq">Dr. Victor Rosetti de Queiroz</a>, <a href="https://br.linkedin.com/in/lucymari">Dra. Lucy Mari Tabuti</a>, <a href="https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/">Dr. Eduardo Savino Gomes</a>, <a href="https://www.linkedin.com/in/remuniz/">Dra. Renata Muniz do Nascimento</a>, <a href="https://www.linkedin.com/in/ronaldo-araujo-pinto-3542811a/">Dr. Ronaldo Araujo Pinto</a>
 
 ## Descrição
 
