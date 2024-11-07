@@ -4,9 +4,9 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# Irrigador Automatico
 
-## Nome do Grupo
+## Sistema de Irrigação Inteligente para Agricultura
 
 ## Integrantes: Gustavo Henrique da Silva Santos, Guilherme Silva Moreno, Kauã Daniel de Aguiar Ferreira & Lucas Alves Bernardo 
 
@@ -20,7 +20,9 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+O projeto irrigador automatico começou com o objetivo de ajudar a agricultura, visando a economia e preservação da água, pensando em como poderia-se usa-la da maneira mais eficiente com pouco custos. Presamos a adaptabilidade do projeto como seu principal ponto, podendo ser usado tanto para escalas menores quanto maiores e para propósitos fora de seu objetivo inicial.
+
+Por meio de um Sensor de Humidade de Solo, captaremos a informação sobre a situação do solo e com base neste ativaremos o sistema de irrigação por meio de bomba D'água.  
 <br><br>
 Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
 <br><br>
