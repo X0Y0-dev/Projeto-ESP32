@@ -20,7 +20,7 @@
 </p>
 
 
-O projeto irrigador automatico começou com o objetivo de ajudar a agricultura, visando a economia e preservação da água, pensando em como poderia-se usa-la da maneira mais eficiente com pouco custos. Presamos a adaptabilidade do projeto como seu principal ponto, podendo ser usado tanto para escalas menores quanto maiores e para propósitos fora de seu objetivo inicial.
+O projeto irrigador automatico começou com o objetivo de ajudar a agricultura, visando a economia e preservação da água, pensando em como poderia-se usa-la da maneira mais eficiente com pouco custos. Presamos a adaptabilidade do projeto como seu principal ponto, podendo ser usado tanto para escalas menores, quanto maiores, *podendo até mesmo fugir* de seu objetivo inicial.
 
 Por meio de um Sensor de Humidade de Solo, captaremos a informação sobre a situação do solo e com base neste ativaremos o sistema de irrigação por meio de bomba D'água.  
 <br><br>
