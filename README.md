@@ -15,16 +15,14 @@
 ## Descrição
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+<img src="https://gtagenda2030.org.br/wp-content/uploads/2019/10/objetivos_port.png?w=1024" alt="17 ORS" border="0">
+  Origem da imagem: <a href="https://brasil.un.org/pt-br">ONU</a> <a rel="license" href="https://brasil.un.org/pt-br">
 </p>
 
 
-O projeto irrigador automático começou com o objetivo de ajudar a agricultura, visando a economia e preservação da água, pensando em como poderia usá-la da maneira mais eficiente com pouco custo. Presamos a adaptabilidade do projeto como seu principal ponto, podendo ser usado tanto para escalas menores quanto maiores, podendo até mesmo fugir de sua função inicial.
-
-Por meio de um Sensor de Umidade de Solo, captaremos a informação sobre a situação do solo e, com base neste, ativaremos o sistema de irrigação que, por meio de bomba d'água, entrega a água ao lugar previamente determinado.  
+ Segundo a pesquisa feita pelo Instituto Brasileiro de Geografia e Estatística (IBGE) divulgada em maio de 2020, o agronegócio respondeu por 97,4% do total de água consumido no país em 2017, com pelo menos metade deste montante de água disperdiçado. Visando ajuda a agricultura, o projeto "irrigador automático" começou com o objetivo de preservação da água, pensando em como poderia usá-la da maneira mais eficiente com pouco custo. Presamos a adaptabilidade do projeto como seu principal ponto, podendo ser usado tanto para escalas menores quanto maiores, podendo até mesmo fugir de sua função inicial.  
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+Por meio de um Sensor de Umidade de Solo, captaremos a informação sobre a situação do solo e, com base neste, ativaremos o sistema de irrigação que, por meio de bomba d'água, entrega a água ao lugar previamente determinado por um certo periodo de tempo.
 <br><br>
 May the force be with you!
 <br><br>
