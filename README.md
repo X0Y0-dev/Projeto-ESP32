@@ -24,8 +24,6 @@
 <br><br>
 Por meio de um Sensor de Umidade de Solo, captaremos a informação sobre a situação do solo e, com base neste, ativaremos o sistema de irrigação que, por meio de bomba d'água, entrega a água ao lugar previamente determinado por um certo periodo de tempo.
 <br><br>
-May the force be with you!
-<br><br>
 
 ## 🛠 Estrutura de pastas
 
