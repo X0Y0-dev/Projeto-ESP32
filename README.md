@@ -12,7 +12,7 @@
 
 ## Professores Orientadores: <a href="https://br.linkedin.com/in/victorbarq">Dr. Victor Rosetti de Queiroz</a>, <a href="https://br.linkedin.com/in/lucymari">Dra. Lucy Mari Tabuti</a>, <a href="https://www.linkedin.com/in/eduardo-savino-gomes-77833a10/">Dr. Eduardo Savino Gomes</a>, <a href="https://www.linkedin.com/in/remuniz/">Dra. Renata Muniz do Nascimento</a>, <a href="https://www.linkedin.com/in/ronaldo-araujo-pinto-3542811a/">Me. Ronaldo Araujo Pinto</a>
 
-## Descrição
+## <b>Descrição</b>
 
 <p align="center">
 <img src="https://gtagenda2030.org.br/wp-content/uploads/2019/10/objetivos_port.png?w=1024" alt="17 ORS" border="0">
@@ -25,7 +25,7 @@
 Por meio de um Sensor de Umidade de Solo, captaremos a informação sobre a situação do solo e, com base neste, ativaremos o sistema de irrigação que, por meio de bomba d'água, entrega a água ao lugar previamente determinado por um certo periodo de tempo.
 <br><br>
 
-## 🛠 Estrutura de pastas
+## 🛠 <b>Estrutura de pastas</b>
 
 -Raiz<br>
 |<br>
@@ -56,7 +56,23 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
-## 🛠 Instalação
+## ⚙ <b>Hardware</b>
+  <br>- Arduino ESP-32</br>
+  <br>- Sensor de Umidade de Solo</br>
+  <br>- Bomba D'água</br>
+  <br>- Relés</br>
+
+## 🖥 <b>Software</b>
+  <br>° Arduino IDE</br>
+
+## 💾 Instalação
+  <br>- Acessar o site do <a href="https://www.arduino.cc/en/software"> Arduino IDE</a> e instalar a IDE.</br>
+  <br>- Após a instalação da IDE, será necessário adicionar as bibliotecas e placas:</br>
+    <br>° <a href="https://github.com/arduino-libraries/Arduino_ESP32_OTA">Arduino_ESP32_OTA</a> (biblioteca por Arduino);</br>
+    <br>° <a href="https://docs.arduino.cc/libraries/wifi/">WiFi</a> (biblioteca por Arduino);<br>
+    <br>° <a href="https://www.arduino.cc/">Arduino ESP32 Boards</a> (placa por Arduino);<br>
+    <br>° <a href="https://github.com/espressif/arduino-esp32">esp32</a> (placa por Espressif Systems).</br>
+    
 
 <b>Android:</b>
 
