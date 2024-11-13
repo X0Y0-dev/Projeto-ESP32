@@ -70,6 +70,7 @@ Há também 4 pastas que seguem da seguinte forma:
   <br>- Após a instalação da IDE, será necessário adicionar as bibliotecas e placas:</br>
     <br>° <a href="https://github.com/arduino-libraries/Arduino_ESP32_OTA">Arduino_ESP32_OTA</a> (biblioteca por Arduino);</br>
     <br>° <a href="https://docs.arduino.cc/libraries/wifi/">WiFi</a> (biblioteca por Arduino);<br>
+    <br>° <a href="https://github.com/espressif/arduino-esp32/blob/master/libraries/BluetoothSerial/src/BluetoothSerial.h">BluetoothSerial.h</a> (biblioteca por lucasssvaz);</br>
     <br>° <a href="https://www.arduino.cc/">Arduino ESP32 Boards</a> (placa por Arduino);<br>
     <br>° <a href="https://github.com/espressif/arduino-esp32">esp32</a> (placa por Espressif Systems).</br>
     
