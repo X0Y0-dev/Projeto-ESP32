@@ -20,9 +20,9 @@
 </p>
 
 
- Segundo a pesquisa feita pelo Instituto Brasileiro de Geografia e Estatística (IBGE) divulgada em maio de 2020, o agronegócio respondeu por 97,4% do total de água consumido no país em 2017, com pelo menos metade deste montante de água disperdiçado. Visando ajuda a agricultura, o projeto "irrigador automático" começou com o objetivo de preservação da água, pensando em como poderia usá-la da maneira mais eficiente com pouco custo. Presamos a adaptabilidade do projeto como seu principal ponto, podendo ser usado tanto para escalas menores quanto maiores, podendo até mesmo fugir de sua função inicial.  
+De acordo com uma pesquisa do Instituto Brasileiro de Geografia e Estatística (IBGE), divulgada em maio de 2020, o agronegócio foi responsável por 97,4% do total de água consumida no Brasil em 2017, com pelo menos metade desse volume sendo desperdiçado. Pensando em auxiliar a agricultura e promover o uso sustentável dos recursos hídricos, o projeto "Irrigador Automático" foi criado com o objetivo de otimizar o uso da água de maneira econômica e eficiente.  
 <br><br>
-Por meio de um Sensor de Umidade de Solo, captaremos a informação sobre a situação do solo e, com base neste, ativaremos o sistema de irrigação que, por meio de bomba d'água, entrega a água ao lugar previamente determinado por um certo periodo de tempo.
+A adaptabilidade é o ponto forte do projeto, permitindo sua aplicação em pequenas e grandes escalas, além de possibilitar outras utilizações além da irrigação. O sistema utiliza um sensor de umidade do solo para monitorar as condições de umidade e, conforme a necessidade, aciona a bomba d'água, direcionando o recurso para a área predeterminada por um período específico de tempo.
 <br><br>
 
 ## 🛠 <b>Estrutura de pastas</b>
