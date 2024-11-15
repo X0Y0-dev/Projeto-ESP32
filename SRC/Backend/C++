@@ -1,1 +1,102 @@
+#include <WiFi.h>
+#include <WebServer.h>
 
+// Defina suas credenciais Wi-Fi
+const char* ssid = "CLARO_2G9C443C"; 
+const char* password = "Casa25802022"; 
+int Sensor = 33;
+int rele = 32;
+int valor = 0;
+int segundos = 0;
+
+WebServer server(80); // Cria um servidor na porta 80
+
+void checar(int Sensor, int rele) {
+    int valor = analogRead(Sensor);
+    Serial.println("valor Sensor");
+    Serial.println(valor);
+    // se estiver menor a umidez do solo que tal quantia defult:1500
+    if (valor < 3500) {
+        // se a terra estiver seca
+        digitalWrite(rele, LOW);
+        Serial.println("Bomba de Água Ligada!");
+    } else {
+        // se ela não estiver seca
+        digitalWrite(rele, HIGH);
+        Serial.println("Bomba de Água Desligada!");
+    }
+}
+
+String Solo(int Sensor) {
+    int valor = analogRead(Sensor);
+    String resultado;
+    // se estiver menor a umidez do solo que tal quantia defult:1500
+    if (valor < 600) {
+        resultado = "Solo Seco!!!";
+    } 
+    else if (valor >= 600 && valor < 1200) {
+        resultado = "Solo Ressecado!";
+    } 
+    else if (valor >= 1200 && valor < 3200) {
+        resultado = "Solo Umido!";
+    } 
+    else if (valor >= 3200) {
+        resultado = "Solo Molhado!";
+    } 
+    else if (valor > 3200 && valor < 4100) {
+        resultado = "Solo Encharcado!";
+    }
+    return resultado;
+}
+
+void setup() {
+    pinMode(Sensor, INPUT);
+    pinMode(rele, OUTPUT);
+    Serial.begin(115200);
+    digitalWrite(rele, HIGH);
+    
+    // Conectar ao Wi-Fi
+    WiFi.begin(ssid, password);
+    Serial.print("Conectando-se ao WiFi...");
+    while (WiFi.status() != WL_CONNECTED) {
+        delay(1000);
+        Serial.print(".");
+    }
+    Serial.println("\nConectado ao WiFi!");
+    Serial.print("Endereço IP: ");
+    Serial.println(WiFi.localIP());
+
+    // Configurações do servidor
+    server.on("/umidade", []() {
+        valor = analogRead(Sensor); // Atualiza o valor do sensor
+        String umidade = String(valor);
+        server.sendHeader("Access-Control-Allow-Origin", "*");
+        server.send(200, "text/plain", umidade);
+    });
+
+    server.on("/Solo", []() {
+        String resultado = Solo(Sensor); // Chama a função Solo
+        server.sendHeader("Access-Control-Allow-Origin", "*");
+        server.send(200, "text/plain", resultado);
+    });
+
+    // Nova rota para obter todos os dados
+    server.on("/dados", []() {
+        valor = analogRead(Sensor); // Atualiza o valor do sensor
+        String umidade = String(valor);
+        String solo = Solo(Sensor);
+        String resultado = "{\"umidade\":" + umidade + ", \"solo\":\"" + solo + "\", \"segundos\":" + String(segundos) + "}";
+        
+        server.sendHeader("Access-Control-Allow-Origin", "*");
+        server.send(200, "application/json", resultado);
+    });
+
+    // Inicia o servidor
+    server.begin();
+}
+
+void loop() {
+    server.handleClient(); // Mantém}
+    segundos++;
+    delay(1000);
+}
