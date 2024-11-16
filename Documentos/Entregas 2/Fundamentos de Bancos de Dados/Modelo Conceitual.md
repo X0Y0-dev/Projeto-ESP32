@@ -1,10 +1,10 @@
-## Modelo
+## Modelo Conceitual
 <p align="center">
     <img src="https://github.com/user-attachments/assets/601c10d4-1f9a-403f-a6b8-9ef1866be01e" alt="Imagem do computador" width="400" />
 </p>
 
 ## Entidades e Atributos
-No modelon conceitual de Banco de Dados apresentado temos as seguintes entidades:
+No modelo conceitual de Banco de Dados apresentado temos as seguintes entidades:
 
 <br>° ***Sensor_Umidade***, com os seguintes atributos:</br>
 - **ID_Sensor** (Identificador);
