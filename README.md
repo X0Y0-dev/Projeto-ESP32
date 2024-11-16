@@ -30,10 +30,11 @@ A adaptabilidade é o ponto forte do projeto, permitindo sua aplicação em pequ
 
 -Raiz<br>
 |<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->imagens<br>
+|-->Documentos<br>
+  &emsp;|-->Entregas 1<br>
+  &emsp;|-->Entregas 2<br>
+  &emsp;|-->Entregas 3<br>
+  &emsp;|-->Entregas 5<br>
 |-->src<br>
   &emsp;|-->Frontend<br>
   &emsp;|-->Backend<br>
