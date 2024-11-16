@@ -60,7 +60,7 @@ Há também 4 pastas que seguem da seguinte forma:
   - Arduino ESP32 Dev;<br>
   - Sensor de Umidade de Solo HL-69;<br>
   - Mini Bomba D'água Submersível 3.3v/5v;<br>
-  - Sonda Higrômetro;<br>
+  - LM393 Comparator Module - ADIY;<br>
   - Relé FL-3FF-S-Z 5VDC;<br>
   - Protoboard (preferência Long);<br>
   - Jumpers MxF e Jumpers MxM.<br>
