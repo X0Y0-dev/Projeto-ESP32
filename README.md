@@ -72,6 +72,7 @@ Há também 4 pastas que seguem da seguinte forma:
     <br>° <a href="https://docs.arduino.cc/libraries/wifi/">WiFi</a> (biblioteca por Arduino);<br>
     <br>° <a href="https://www.arduino.cc/">Arduino ESP32 Boards</a> (placa por Arduino);<br>
     <br>° <a href="https://github.com/espressif/arduino-esp32">esp32</a> (placa por Espressif Systems).</br>
+  <br>- Na IDE, clique em File > Preferences > Additional boards Managers URLs, e adicione os links das placas e bibliotecas.
   <br>- Após a instalação da IDE e das bibliotecas e placas, o software está pronto para rodar o código C++.</br>
   <br></br>
   <br>HTML:</br>
