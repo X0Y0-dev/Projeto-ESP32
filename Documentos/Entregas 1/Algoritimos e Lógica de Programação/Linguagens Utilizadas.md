@@ -28,9 +28,17 @@ Ao programarmos um arduino, podemos usar algumas diversas linguagens, como, por 
 
 <h1>HTML5</h1>
 <h2>Histórico</h2>
-
+<br>Primeiramente, HTML em si não é uma linguagem de programação. HTML é a sigla para HyperText Markup Language, ou, em portugês, Linguagem de Marcação de HyperTexto.</br>
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/83b58bdc-4d7a-4a75-916f-96ec6ac9c9fc" alt="Imagem do computador" width="400" />
+</p>
+<br>O HTML foi criado entre os anos 1989 e 1991 pelo cientista britânico Tim Berners-Lee. Tim desenvolver o HTML como parte de ym projeto de World Wide Web (WWW), com o objetivo de um melhor meio de troca de informações entre os pesquisadores.</br>
+<br>Entretanto, quando foi criado, o HTML possuia apenas 18 tags, com capacidade máxima de formatar apenas texos básicos e criar links. Apenas em 1997, já como HTML3.2, goi possível o suporte de tabelas, applets Java e diversos outros elementos de formatação.</br>
+<br>Em 1999, como HTML4.01, além de corrigir imperfeições de suas versões anteriores, o conceito de acessibilidade e separação de conteúdo e apresentação, incentivando o uso de CSS (Cascading Style Sheets) para estilização foi introduzido.</br>
+<br>Em 2000, o XHTML reformulou o HTML 4.01 com sintaxe XML, mas teve baixa adoção. Em 2014, o HTML5 trouxe novos elementos semânticos, suporte a multimídia, APIs interativas e melhorias na acessibilidade, tornando-se recomendação do W3C. Atualmente, o HTML segue o modelo de "padrão vivo" do WHATWG, evoluindo continuamente sem versões formais.</br>
 
 <h2>Documentação Oficial</h2>
-
+Caso necessário, as informações sobre a documentação oficial podem ser encontradas no site oficial do  W3C (WorldWide Web Consortium) sobre as <a href="https://html.spec.whatwg.org/multipage/">especificações do HTML5</a> e a <a href="https://www.w3.org/html/">visão geral sobre o HTML</a>.
 
 <h2>Justificativa</h2>
+Para o nosso projeto, foi necessária a criação de um servidor, o qual será responsável por captar, ler, armazenar e transmitir as informações captadas pelo sensor. Para programar o servido, a linguagem que utilizamos, e também a recomendada pela própria biblioteca do Arduino ESP32 foi o HTML.
