@@ -5,6 +5,7 @@
 
 ## Entidades e Atributos
 No modelon conceitual de Banco de Dados apresentado temos as seguintes entidades:
+
 <br>° ***Sensor_Umidade***, com os seguintes atributos:</br>
 - **ID_Sensor** (Identificador);
 - Localizacao (Onde se encontra o sensor);
