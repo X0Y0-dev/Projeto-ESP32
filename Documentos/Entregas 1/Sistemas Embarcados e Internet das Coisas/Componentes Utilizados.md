@@ -54,3 +54,9 @@ Para o projeto Irrigação Inteligente, foi-se utilizada uma vasta coletânea de
     <img src="https://github.com/user-attachments/assets/5ae64ae8-1214-45f6-a710-e4c14b4f09f2" alt="Imagem do computador" width="400" />
 </p>
 <br>Os jumpers, em conjunto com a Protoboard, servem para alimentar algum componente que está sendo utilizado no momento, seja com uma carga positiva ou negativa.</br>
+
+## PowerBank AlphaGold 10000 mAh
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/1362ab9e-e12d-41e0-ab52-6ce23a2b9a10" alt="Imagem do computador" width="400" />
+</p>
+<br>O PowerBank AlphaGold é meio pelo qual todo o projeto será energizado. É extremamente resistente e duradouro, podendo durar cerca de 20 horar com um celular e, aproximadamente, 200 horar alimentando o projeto devido ao baixo nível de consumo. Devido aos seus cabos já acoplados, sendo eles C, Mini-C, Lightining e BTE-29, a compatibilidade com o projeto é facilitada, juntamente dada à sua portabilidade. Além do mais, possui entradas USB, USB-C e C para recarga e carga de outros dispositivos, sendo uma real bateria, alimentando mais de um item ao mesmo tempo.</br>
