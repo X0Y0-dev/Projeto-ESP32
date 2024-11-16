@@ -17,7 +17,7 @@ void setup() {
 }
 
 void loop() {
-//Caso o valor hipotétio "i" for abaixo de 100, o código se repitirá até que tal afirmação se prove o contrário
+//enquanto i for abaixo de 100, o código se repitirá até que tal afirmação se prove o contrário
   if (i < 100) {
     i++; //Valor hipotético de "i" será somado com ele mesmo a cada início de loop
     valor = analogRead(Sensor); //Função "valor" é igual à leitura digital do sensor
