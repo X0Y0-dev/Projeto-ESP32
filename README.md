@@ -61,9 +61,9 @@ Há também 4 pastas que seguem da seguinte forma:
   - Sensor de Umidade de Solo HL-69;<br>
   - Mini Bomba D'água Submersível;<br>
   - Sonda Higrômetro;<br>
-  - Relé;<br>
-  - Protoboard;<br>
-  - Jumpers.<br>
+  - Relé FL-3FF-S-Z 5VDC;<br>
+  - Protoboard (preferência Long);<br>
+  - Jumpers MxF e Jumpers MxM.<br>
 
 ## 🖥 <b>Software</b>
 - Arduino IDE;<br>
