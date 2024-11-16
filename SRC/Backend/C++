@@ -1,16 +1,19 @@
 #include <WiFi.h>
 #include <WebServer.h>
 
-// Defina suas credenciais Wi-Fi
-const char* ssid = "CLARO_2G9C443C"; 
-const char* password = "Casa25802022"; 
+// definir senha e nome do wifi que o ESP32 vai se conectar.
+const char* ssid = "Nome do Wifi Super Moderno"; 
+const char* password = "Senha de wifi super segura"; 
+
+// pinos e valores necessários
 int Sensor = 33;
 int rele = 32;
 int valor = 0;
 int segundos = 0;
 
-WebServer server(80); // Cria um servidor na porta 80
+WebServer server(80); // cria um servidor na porta 80
 
+// procedimento para checar a umidade da terra e ativar bomba ou não se necessário
 void checar(int Sensor, int rele) {
     int valor = analogRead(Sensor);
     Serial.println("valor Sensor");
@@ -27,10 +30,10 @@ void checar(int Sensor, int rele) {
     }
 }
 
+//função que devolve uma string escrita com a situação atual do solo do sensor.
 String Solo(int Sensor) {
     int valor = analogRead(Sensor);
     String resultado;
-    // se estiver menor a umidez do solo que tal quantia defult:1500
     if (valor < 600) {
         resultado = "Solo Seco!!!";
     } 
