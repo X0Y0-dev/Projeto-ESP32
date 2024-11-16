@@ -1,6 +1,6 @@
-Funcionalidade.
-o código pode possuir milhares de features incriveis e funcionalidades diferentes, mas, seu procedimento principal será sempre este que liga e desliga a bomba d'água.
- Este procedimento faz uma checagem do que o sensor de umidade do solo está captando, armazenando este valor em uma variavel vazia e com base no valor guardado ele verifica se deve ou não ligar a bomba d'água. 
+Funcionalidade:
+o código pode possuir milhares de features incriveis e funcionalidades diferentes, mas, seu procedimento principal será sempre este que liga e desliga a bomba de água.
+Este procedimento faz uma checagem do que o sensor de umidade do solo está captando, armazenando este valor em uma variavel vazia e com base no valor guardado ele verifica se deve ou não ligar a bomba de água. 
 Assim, apenas ligando somente quando necessário e evitando desperdicio de água.
 
 
@@ -12,7 +12,7 @@ int rele = 32;
 int valor = 0;
 int segundos = 0;
 
-//o Coração do Código. Procedimento que checa a umidade do solo e com está informação decide se vai manter desligado ou liga-ra a bomba d'água.
+//o Coração do Código. Procedimento que checa a umidade do solo e com está informação decide se vai manter desligado ou liga-ra a bomba de água.
 //abre procedimento que não retorna nada com os parametros sensor e rele.
 void checar(int Sensor, int rele) {
 
@@ -26,7 +26,7 @@ void checar(int Sensor, int rele) {
         digitalWrite(rele, LOW);
         Serial.println("Bomba de Água Ligada!");
     } else {
-        // se ela não estiver seca então trava o relé e trava a bomba d'agua.
+        // se ela não estiver seca então trava o relé e trava a bomba de agua.
         digitalWrite(rele, HIGH);
         Serial.println("Bomba de Água Desligada!");
     }
