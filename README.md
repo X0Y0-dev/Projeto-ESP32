@@ -53,7 +53,7 @@ Há também 4 pastas que seguem da seguinte forma:
 <b>src</b>: Pasta que contém o código fonte.
 
 ## ⚙ <b>Hardware</b>
-  <br>- Arduino ESP32;</br>
+  <br>- Arduino ESP32 Dev;</br>
   <br>- Sensor de Umidade de Solo HL-69;</br>
   <br>- Mini Bomba D'água Submersível;</br>
   <br>- Higrômetro;</br>
