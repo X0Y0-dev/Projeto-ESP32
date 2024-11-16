@@ -1,3 +1,4 @@
+## COMO NOSSO PROJETO APENAS USA 1 SENSOR (SENSOR DE UMIDADE DE ÁGUA), AS ENTREGAS 1 E 2 SÃO IDÊNTICAS
 <h1>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/a6a7fd0e-1ed6-4535-9329-196669aa2cb7" alt="Imagem do computador" width="800" />
