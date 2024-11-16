@@ -97,8 +97,18 @@ tambem envia um arquivo chamado "application/json" com as informações de resul
     server.begin();
 }
 
-void loop() {
+void loop() 
+ {
+    checar(Sensor, rele);
+    // caso o rele libere energia, então segundos serão 0
+     if (digitalRead(rele) != HIGH)
+    {
+      segundos = 0;
+    }     //caso contrário, aumenta os segundos com delay de 1000 ms
+    else if(digitalRead(rele) != LOW){
+      segundos++;
+    }
     server.handleClient(); // mantem o servidor atualizado e aberto.
-    segundos++; //adiciona a segundos 1 a cada 1 segundo.
     delay(1000);
-}
+
+ }
