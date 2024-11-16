@@ -69,8 +69,8 @@ Há também 4 pastas que seguem da seguinte forma:
 - Arduino IDE;<br>
 - VSCode. <br>
 
-## 💾 Instalação
-<br>C++</br>
+## 💾 <b>Instalação<b>
+C++
 - Acessar o site do <a href="https://www.arduino.cc/en/software"> Arduino IDE</a> e instalar a IDE.<br>
 - Após a instalação da IDE, será necessário adicionar as bibliotecas e placas para próprioas para o Arduino ESP32 e suas aplicações utilizadas:<br>
     <br>° <a href="https://github.com/arduino-libraries/Arduino_ESP32_OTA">Arduino_ESP32_OTA</a> (biblioteca por Arduino);</br>
