@@ -80,4 +80,4 @@ Há também 4 pastas que seguem da seguinte forma:
   <br>- Acessar o site do <a href="https://code.visualstudio.com"> Visual Studio Code</a> e instalar o VSCode.</br>
   <br>- Após a instalação do VSCode, será necessário adicionar uma extensão para executar o código do servidor:</br>
     <br>° <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> (extensão por Ritwick Dey).</br>
-  <br>- Após a instalação do VSCode e da biblioteca, o código do servidor estara pronto para ser executado e acessado.</br>
+  <br>- Após a instalação do VSCode e da biblioteca, baixe o código HTML do projeto e estará pronto para o uso com o Live Server.</br>
