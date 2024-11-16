@@ -19,9 +19,9 @@ void setup() {
 void loop() {
 //enquanto i for abaixo de 100, o código se repitirá até que tal afirmação se prove o contrário
   if (i < 100) {
-    i++; //Valor hipotético de "i" será somado com ele mesmo a cada início de loop
-    valor = analogRead(Sensor); //Função "valor" é igual à leitura digital do sensor
-    Serial.print(i);
+    i++; //adiciona 1 a i sempre que passar por este if.
+    valor = analogRead(Sensor); //int valor é igual à leitura digital do sensor
+    Serial.print(i); 
     Serial.print(": ");
     Serial.println(valor);
     resultado = resultado + valor; //Soma de valores fornecidos pelas tentativas do sensor
