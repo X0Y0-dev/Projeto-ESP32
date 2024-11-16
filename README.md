@@ -59,7 +59,7 @@ Há também 4 pastas que seguem da seguinte forma:
 ## ⚙ <b>Hardware</b>
   - Arduino ESP32 Dev;<br>
   - Sensor de Umidade de Solo HL-69;<br>
-  - Mini Bomba D'água Submersível;<br>
+  - Mini Bomba D'água Submersível 3.3v/5v;<br>
   - Sonda Higrômetro;<br>
   - Relé FL-3FF-S-Z 5VDC;<br>
   - Protoboard (preferência Long);<br>
