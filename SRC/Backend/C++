@@ -85,17 +85,20 @@ void setup() {
 
 //cria uma string escrita da maneira correta em que um arquivo .JASON é escrito.
         String resultado = "{\"umidade\":" + umidade + ", \"solo\":\"" + solo + "\", \"segundos\":" + String(segundos) + "}";
-        // utiliza o protocolo de troca de informações entre site chamado CORS
+        // utiliza o protocolo de permissão de troca de informações entre site chamado  Cross-Origin Resource Sharing (CORS)
+// ele permite que o site html possa puxar informações do site criado pelo esp, Como foi colocado um "*" no parametro, ele permitira que qualquer um possa puxar as informações do ESP32.
         server.sendHeader("Access-Control-Allow-Origin", "*");
+/*aqui ele enviará para o servidor com um código de confirmação 200, que para o HTML significa OK. Caso de erro de retorno do sinal ele retornara um 404, oque não é um ok.
+tambem envia um arquivo chamado "application/json" com as informações de resultado para o servidor, tal arquivo será no futuro puxado pelo HTML.    */
         server.send(200, "application/json", resultado);
     });
 
-    // Inicia o servidor
+    // inicia o servidor
     server.begin();
 }
 
 void loop() {
-    server.handleClient(); // Mantém}
-    segundos++;
+    server.handleClient(); // mantem o servidor atualizado e aberto.
+    segundos++; //adiciona a segundos 1 a cada 1 segundo.
     delay(1000);
 }
