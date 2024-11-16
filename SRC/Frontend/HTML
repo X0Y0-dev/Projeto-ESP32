@@ -27,7 +27,7 @@
                 });
         }
 
-        // Atualiza os dados a cada 2 segundos
+        // atualiza os dados a cada 2 segundos
         setInterval(obterDados, 2000);
     </script>
 </head>
