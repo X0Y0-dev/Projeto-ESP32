@@ -79,7 +79,7 @@ Há também 4 pastas que seguem da seguinte forma:
     <br>° <a href="https://github.com/espressif/arduino-esp32">esp32</a> (placa por Espressif Systems).</br>
 - Na IDE, clique em File > Preferences > Additional boards Managers URLs, e adicione os links das placas e bibliotecas.<br>
 - Após a instalação da IDE e das bibliotecas e placas, o software está pronto para rodar o código C++.<br>
-<br></br>
+
 <br>HTML</br>
 - Acessar o site do <a href="https://code.visualstudio.com"> Visual Studio Code</a> e instalar o VSCode.<br>
 - Após a instalação do VSCode, será necessário adicionar uma extensão para executar o código do servidor:<br>
