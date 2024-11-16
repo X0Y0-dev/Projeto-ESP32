@@ -87,3 +87,4 @@ C++
 - Após a instalação do VSCode e da biblioteca, baixe o código HTML do projeto e estará pronto para o uso com o Live Server.<br>
 
 ## 📔 <b>Referências<b>
+Artigo feito pela CONBEA usado para obtenção de informações sobre o sensor de umidade de solo:<a href="https://conbea.org.br/anais/publicacoes/conbea-2018/livros-2018/eas-engenharia-de-agua-e-solo-10/1687-sensor-de-umidade-do-solo-em-diferentes-profundidaes/file"> SENSOR DE UMIDADE DO SOLO EM DIFERENTES PROFUNDIDADE</a>
