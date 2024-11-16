@@ -24,6 +24,7 @@ De acordo com uma pesquisa do Instituto Brasileiro de Geografia e Estatística (
 <br><br>
 A adaptabilidade é o ponto forte do projeto, permitindo sua aplicação em pequenas e grandes escalas, além de possibilitar outras utilizações além da irrigação. O sistema utiliza um sensor de umidade do solo para monitorar as condições de umidade e, conforme a necessidade, aciona a bomba d'água, direcionando o recurso para a área predeterminada por um período específico de tempo.
 <br><br>
+![projeto 100%](https://github.com/user-attachments/assets/52e8b752-055c-4f00-b10f-792a5a27ea14)
 
 ## 🛠 <b>Estrutura de pastas</b>
 
