@@ -5,7 +5,7 @@
 <br>Usando o seguinte código, é possivel fazer o mesmo teste de acurácia.<br>
 
 ```cpp
-//Declaração dos elementos a serem utilizados neste programa
+//declaração dos elementos a serem utilizados neste programa
 int Sensor = 33;
 int valor = 0;
 int resultado = 0;
