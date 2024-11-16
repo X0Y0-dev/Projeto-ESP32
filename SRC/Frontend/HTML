@@ -31,6 +31,7 @@
         setInterval(obterDados, 2000);
     </script>
 </head>
+//aqui é oque vai aparecer no site
 <body>
     <h1>Monitor de Umidade do Solo</h1>
     <p id="umidade">Umidade do Solo: Carregando...</p>
