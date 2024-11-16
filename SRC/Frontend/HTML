@@ -34,8 +34,9 @@
 //aqui é oque vai aparecer no site
 <body>
     <h1>Monitor de Umidade do Solo</h1>
+//coloca um id para cada linha para poder receber informaçõesa pela head
     <p id="umidade">Umidade do Solo: Carregando...</p>
-    <p id="Segundos">Ligado última vez:</p>
-    <p id="Solo">Condição do Solo:</p>
+    <p id="Segundos">Segundos deis da última vez:</p>
+    <p id="Solo">Condição Atual do Solo:</p>
 </body>
 </html>
