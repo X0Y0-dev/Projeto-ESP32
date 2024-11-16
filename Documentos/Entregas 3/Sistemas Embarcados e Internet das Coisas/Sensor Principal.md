@@ -4,7 +4,7 @@
 </p>
 
 Neste esquema, temos a adição do relé e da bomba d'água. O comparador está conectado ao relé que, por sua vez, está conectado com a bomba d'água, fazendo com que o controlador acabe por regir as ações da bomba indiretamente. Assim que as informações do sensor saírem do controlador, o relé julgará se elas batem, com os parâmetros estabelecidos na programação ou não. Caso batam, o relé enviará um sinal para bomba d'água que, por sua vez, será ativa e efetivada na plantação. Caso contrário, caso a informação não seja pertinente, o relé não enviará sinal algum para a bomba d'água.<br>
-Na imagem, vemos a bomba d'água recebendo energia negativa (cabo preto) e energia positiva de 5v (cabo vermelho) que, por sua vez, é conectado ao relé. Já o relé recebe energia positiva de 5v (cabo roxo), energia negativa (cabo preto) euqnato mantém-se conectado ao controlador (cabo vermelhor) e à sua porta 33, que serve tanto para leitura analógica quanto digital (Neste caso leitura digital).<br>
+Na imagem, vemos a bomba d'água recebendo energia negativa (cabo preto) e energia positiva de 5v (cabo vermelho) que, por sua vez, é conectado ao relé. Já o relé recebe energia positiva de 5v (cabo roxo), energia negativa (cabo preto) euqnato mantém-se conectado ao controlador (cabo vermelho) e à sua porta 33, que serve tanto para leitura analógica quanto digital (Neste caso leitura digital).<br>
 
 ## Teste do Projeto com Arduino Uno
 <p align="center">
