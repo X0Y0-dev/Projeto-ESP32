@@ -12,7 +12,7 @@ Na imagem, vemos a bomba d'água recebendo energia negativa (cabo preto) e energ
 
 </p> 
 
-Neste esperimento feito na FECAP, é possível ver o arduino sendo alumentado com o Powerbank AlphaGold 10000mAh, enquanto o Sensor de Umidade de Solo está na terra. Neste experimento, como houveram problemas técnicos no dia, tivemos que improvisar com um Arduino Uno, ou seja, o máximo passou de 4095 para 1023. Caso o sensor chegasse a um valor de 600 ou acima, o LED azul iria acender e, caso contrário, se o sensor chegasse a um valor de 599 ou abaixo, o LED permaneceria apagado. Como é observável na imagem, o valor obtido pelo sensor é igual ou acima de 600, visto que o LED azul está aceso.
+Neste experimento feito na FECAP, é possível ver o arduino sendo aumentado com o Powerbank AlphaGold 10000mAh, enquanto o Sensor de Umidade de Solo está na terra. Neste experimento, como houveram problemas técnicos no dia, tivemos que improvisar com um Arduino Uno, ou seja, o máximo passou de 4095 para 1023. Caso o sensor chegasse a um valor de 600 ou acima, o LED azul iria acender e, caso contrário, se o sensor chegasse a um valor de 599 ou abaixo, o LED permaneceria apagado. Como é observável na imagem, o valor obtido pelo sensor é igual ou acima de 600, visto que o LED azul está aceso.
 
 ## Esquematico Montagem Física ESP32
 <p align="center">
