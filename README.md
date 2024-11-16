@@ -35,7 +35,7 @@ A adaptabilidade é o ponto forte do projeto, permitindo sua aplicação em pequ
   &emsp;|-->Entregas 2<br>
   &emsp;|-->Entregas 3<br>
   &emsp;|-->Entregas 4<br>
-|-->src<br>
+|-->SRC<br>
   &emsp;|-->Frontend<br>
   &emsp;|-->Backend<br>
 |readme.md<br>
