@@ -85,3 +85,5 @@ C++
 - Após a instalação do VSCode, será necessário adicionar uma extensão para executar o código do servidor:<br>
     <br>° Baixe a extensão <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> (extensão por Ritwick Dey) no VSCode.</br>
 - Após a instalação do VSCode e da biblioteca, baixe o código HTML do projeto e estará pronto para o uso com o Live Server.<br>
+
+## 📔 <b>Referências<b>
