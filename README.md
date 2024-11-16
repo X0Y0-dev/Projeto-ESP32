@@ -22,8 +22,6 @@
 
 De acordo com uma pesquisa do Instituto Brasileiro de Geografia e Estatística (IBGE), divulgada em maio de 2020, o agronegócio foi responsável por 97,4% do total de água consumida no Brasil em 2017, com pelo menos metade desse volume sendo desperdiçado. Pensando em auxiliar a agricultura e promover o uso sustentável dos recursos hídricos, o projeto "Irrigador Automático" foi criado com o objetivo de otimizar o uso da água de maneira econômica e eficiente.  
 <br><br>
-O projeto consiste na utilização de um sen
-<br><br>
 A adaptabilidade é o ponto forte do projeto, permitindo sua aplicação em pequenas e grandes escalas, além de possibilitar outras utilizações além da irrigação. O sistema utiliza um sensor de umidade do solo para monitorar as condições de umidade e, conforme a necessidade, aciona a bomba d'água, direcionando o recurso para a área predeterminada por um período específico de tempo.
 <br><br>
 
@@ -55,46 +53,32 @@ Há também 4 pastas que seguem da seguinte forma:
 <b>src</b>: Pasta que contém o código fonte.
 
 ## ⚙ <b>Hardware</b>
-  <br>- Arduino ESP-32</br>
-  <br>- Sensor de Umidade de Solo</br>
-  <br>- Bomba D'água</br>
-  <br>- Relés</br>
+  <br>- Arduino ESP32;</br>
+  <br>- Sensor de Umidade de Solo HL-69;</br>
+  <br>- Mono Bomba D'água Submersível;</br>
+  <br>- Relé;</br>
+  <br>- Protoboard;</br>
+  <br>- Jumpers.</br>
 
 ## 🖥 <b>Software</b>
-  <br>° Arduino IDE</br>
+  <br>- Arduino IDE;</br>
+  <br>- VSCode. </br>
 
 ## 💾 Instalação
+  <br>C++</br>
   <br>- Acessar o site do <a href="https://www.arduino.cc/en/software"> Arduino IDE</a> e instalar a IDE.</br>
-  <br>- Após a instalação da IDE, será necessário adicionar as bibliotecas e placas:</br>
+  <br>- Após a instalação da IDE, será necessário adicionar as bibliotecas e placas para próprioas para o Arduino ESP32 e suas aplicações utilizadas:</br>
     <br>° <a href="https://github.com/arduino-libraries/Arduino_ESP32_OTA">Arduino_ESP32_OTA</a> (biblioteca por Arduino);</br>
     <br>° <a href="https://docs.arduino.cc/libraries/wifi/">WiFi</a> (biblioteca por Arduino);<br>
-    <br>° <a href="https://github.com/espressif/arduino-esp32/blob/master/libraries/BluetoothSerial/src/BluetoothSerial.h">BluetoothSerial.h</a> (biblioteca por lucasssvaz);</br>
     <br>° <a href="https://www.arduino.cc/">Arduino ESP32 Boards</a> (placa por Arduino);<br>
     <br>° <a href="https://github.com/espressif/arduino-esp32">esp32</a> (placa por Espressif Systems).</br>
-    
-
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+  <br>- Após a instalação da IDE e das bibliotecas e placas, o software está pronto para rodar o código C++.</br>
+  <br></br>
+  <br>HTML:</br>
+  <br>- Acessar o site do <a href="https://code.visualstudio.com"> Visual Studio Code</a> e instalar o VSCode.</br>
+  <br>- Após a instalação do VSCode, será necessário adicionar uma extensão para executar o código do servidor:</br>
+    <br>° <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> (extensão por Ritwick Dey).</br>
+  <br>- Após a instalação do VSCode e da biblioteca, o código do servidor estara pronto para ser executado e acessado.</br>
 
 ## 💻 Configuração para Desenvolvimento
 
