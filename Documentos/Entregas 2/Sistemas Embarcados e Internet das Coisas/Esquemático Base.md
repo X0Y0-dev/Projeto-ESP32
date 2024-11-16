@@ -20,5 +20,6 @@ void setup() {
 void loop() 
 {
     checar(Sensor);
+    delay(1000);
 }
 ```
