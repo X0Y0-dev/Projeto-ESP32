@@ -1,5 +1,5 @@
 ## Modelo Lógico
-Primeiramente, para podermos entender o Modelo Físico do Banco de Dados do nosso projeto, precisamos entender o que acontece entre ele e o Modelo Conceitual: O Modelo Lógico:
+Primeiramente, para podermos entender o Modelo Físico do Banco de Dados do nosso projeto, precisamos entender o que acontece entre ele e o Modelo Conceitual:
 <p align="center">
     <img src="https://github.com/user-attachments/assets/c08c30e8-aee9-4a71-991a-eb06a30fa05b" alt="Imagem do computador" width="400" />
 </p>
