@@ -64,6 +64,7 @@ Há também 4 pastas que seguem da seguinte forma:
   - Relé FL-3FF-S-Z 5VDC;<br>
   - Protoboard (preferência Long);<br>
   - Jumpers MxF e Jumpers MxM.<br>
+  - Mangueira Cristal Pvc 4mm.<br>
 
 ## 🖥 <b>Software</b>
 - Arduino IDE;<br>
