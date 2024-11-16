@@ -34,6 +34,7 @@ void checar(int Sensor, int rele) {
 String Solo(int Sensor) {
     int valor = analogRead(Sensor);
     String resultado;
+//diz qual a condição do solo
     if (valor < 600) {
         resultado = "Solo Seco!!!";
     } 
@@ -49,47 +50,42 @@ String Solo(int Sensor) {
     else if (valor > 3200 && valor < 4100) {
         resultado = "Solo Encharcado!";
     }
+//retorna valor de resultado
     return resultado;
 }
 
+//aqui é onde iniciaremos nosso servidor e indicaremos oque faz cada pino.
 void setup() {
     pinMode(Sensor, INPUT);
     pinMode(rele, OUTPUT);
     Serial.begin(115200);
+//inicia o rele travado
     digitalWrite(rele, HIGH);
     
-    // Conectar ao Wi-Fi
+    // conectar ao Wi-Fi
     WiFi.begin(ssid, password);
+//diz que está conectando no serial e enquanto não estiver em situação de conectado, ele escreverá pontos até conectar.
     Serial.print("Conectando-se ao WiFi...");
     while (WiFi.status() != WL_CONNECTED) {
         delay(1000);
         Serial.print(".");
     }
+//quand estiver conectado, pula uma linha, e escreve o IP do Servidor criado pelo ESP32 que será usado depois
     Serial.println("\nConectado ao WiFi!");
     Serial.print("Endereço IP: ");
     Serial.println(WiFi.localIP());
 
-    // Configurações do servidor
-    server.on("/umidade", []() {
-        valor = analogRead(Sensor); // Atualiza o valor do sensor
-        String umidade = String(valor);
-        server.sendHeader("Access-Control-Allow-Origin", "*");
-        server.send(200, "text/plain", umidade);
-    });
 
-    server.on("/Solo", []() {
-        String resultado = Solo(Sensor); // Chama a função Solo
-        server.sendHeader("Access-Control-Allow-Origin", "*");
-        server.send(200, "text/plain", resultado);
-    });
-
-    // Nova rota para obter todos os dados
+ // configura um servidor com o nome ip/dados para envio de informações.
     server.on("/dados", []() {
+//configuração de entrega de informações para o servidor
         valor = analogRead(Sensor); // Atualiza o valor do sensor
         String umidade = String(valor);
         String solo = Solo(Sensor);
+
+//cria uma string escrita da maneira correta em que um arquivo .JASON é escrito.
         String resultado = "{\"umidade\":" + umidade + ", \"solo\":\"" + solo + "\", \"segundos\":" + String(segundos) + "}";
-        
+        // utiliza o protocolo de troca de informações entre site chamado CORS
         server.sendHeader("Access-Control-Allow-Origin", "*");
         server.send(200, "application/json", resultado);
     });
