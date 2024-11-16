@@ -4,7 +4,7 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Irrigador Automático
+# Irrigação Inteligente
 
 ## Sistema de Irrigação Inteligente para Agricultura
 
@@ -20,7 +20,7 @@
 </p>
 
 
-De acordo com uma pesquisa do Instituto Brasileiro de Geografia e Estatística (IBGE), divulgada em maio de 2020, o agronegócio foi responsável por 97,4% do total de água consumida no Brasil em 2017, com pelo menos metade desse volume sendo desperdiçado. Pensando em auxiliar a agricultura e promover o uso sustentável dos recursos hídricos, o projeto "Irrigador Automático" foi criado com o objetivo de otimizar o uso da água de maneira econômica e eficiente.  
+De acordo com uma pesquisa do Instituto Brasileiro de Geografia e Estatística (IBGE), divulgada em maio de 2020, <a href="https://www.estadao.com.br/economia/agropecuaria-fica-com-97-4-do-consumo-total-de-agua-em-2017-aponta-ibge/">o agronegócio foi responsável por 97,4% do total de água consumida no Brasil em 2017</a>, com pelo menos metade desse volume sendo desperdiçado e que previsto pelas pesquisas da Agência Nacional de Águas (<a href="https://www.gov.br/ana/pt-br">ANA</a>), o consumo de água no Brasil deve aumentar 24% nos próximos 10 anos. Pensando em auxiliar a agricultura e promover o uso sustentável dos recursos hídricos, o projeto "Irrigação Inteligente" foi criado com o objetivo de otimizar o uso da água de maneira econômica e eficiente.  
 <br><br>
 A adaptabilidade é o ponto forte do projeto, permitindo sua aplicação em pequenas e grandes escalas, além de possibilitar outras utilizações além da irrigação. O sistema utiliza um sensor de umidade do solo para monitorar as condições de umidade e, conforme a necessidade, aciona a bomba d'água, direcionando o recurso para a área predeterminada por um período específico de tempo.
 <br><br>
