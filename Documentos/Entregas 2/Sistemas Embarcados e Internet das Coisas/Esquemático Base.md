@@ -1,4 +1,4 @@
-# Esquematico Básico
+# Esquemático Básico
 <h1>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/f3190e24-ea81-416e-bf35-23342fa26526" alt="Imagem do computador" width="400" />
