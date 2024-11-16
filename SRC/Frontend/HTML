@@ -21,6 +21,7 @@
                     document.getElementById("Solo").innerText = "Condição atual do Solo: " + data.solo;
                     document.getElementById("Segundos").innerText = "Tempo desde a última vez ligada a bomba: " + data.segundos + " Segundos.";
                 })
+                  //caso o fetch tenha entregue um erro, ele escreverá no Console do site um erro.
                 .catch(error => {
                     console.error('Erro:', error);
                 });
