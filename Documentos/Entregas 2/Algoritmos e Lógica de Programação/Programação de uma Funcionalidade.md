@@ -1,16 +1,16 @@
-Funcionalidade:
-o código pode possuir milhares de features incriveis e funcionalidades diferentes, mas, seu procedimento principal será sempre este que liga e desliga a bomba de água.
-Este procedimento faz uma checagem do que o sensor de umidade do solo está captando, armazenando este valor em uma variavel vazia e com base no valor guardado ele verifica se deve ou não ligar a bomba de água. 
-Assim, apenas ligando somente quando necessário e evitando desperdicio de água.
+# Funcionalidade 
+Funcionalidade.
+O código pode possuir milhares de features incríveis e funcionalidades diferentes, mas seu procedimento principal será sempre este que liga e desliga a bomba de água. Este procedimento faz uma checagem do que o sensor de umidade do solo está captando, armazenando este valor em uma variável vazia e, com base no valor guardado, ele verifica se deve ou não ligar a bomba de água. Assim, apenas ligando somente quando necessário e evitando desperdício de água.
 
 
 
-Código comentado:
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-int Sensor = 33;
+## Código comentado:
+```cpp
 int rele = 32;
 int valor = 0;
 int segundos = 0;
+
+
 
 //o Coração do Código. Procedimento que checa a umidade do solo e com está informação decide se vai manter desligado ou liga-ra a bomba de água.
 //abre procedimento que não retorna nada com os parametros sensor e rele.
@@ -55,4 +55,4 @@ void loop()
     }
     delay(1000);
  }
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
