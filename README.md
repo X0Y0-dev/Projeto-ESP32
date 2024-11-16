@@ -57,31 +57,31 @@ Há também 4 pastas que seguem da seguinte forma:
 <b>src</b>: Pasta que contém o código fonte.
 
 ## ⚙ <b>Hardware</b>
-  <br>- Arduino ESP32 Dev;</br>
-  <br>- Sensor de Umidade de Solo HL-69;</br>
-  <br>- Mini Bomba D'água Submersível;</br>
-  <br>- Higrômetro;</br>
-  <br>- Relé;</br>
-  <br>- Protoboard;</br>
-  <br>- Jumpers.</br>
+  - Arduino ESP32 Dev;<br>
+  - Sensor de Umidade de Solo HL-69;<br>
+  - Mini Bomba D'água Submersível;<br>
+  - Higrômetro;<br>
+  - Relé;<br>
+  - Protoboard;<br>
+  - Jumpers.<br>
 
 ## 🖥 <b>Software</b>
-  <br>- Arduino IDE;</br>
-  <br>- VSCode. </br>
+- Arduino IDE;<br>
+- VSCode. <br>
 
 ## 💾 Instalação
-  <br>C++</br>
-  <br>- Acessar o site do <a href="https://www.arduino.cc/en/software"> Arduino IDE</a> e instalar a IDE.</br>
-  <br>- Após a instalação da IDE, será necessário adicionar as bibliotecas e placas para próprioas para o Arduino ESP32 e suas aplicações utilizadas:</br>
+<br>C++</br>
+- Acessar o site do <a href="https://www.arduino.cc/en/software"> Arduino IDE</a> e instalar a IDE.<br>
+- Após a instalação da IDE, será necessário adicionar as bibliotecas e placas para próprioas para o Arduino ESP32 e suas aplicações utilizadas:<br>
     <br>° <a href="https://github.com/arduino-libraries/Arduino_ESP32_OTA">Arduino_ESP32_OTA</a> (biblioteca por Arduino);</br>
     <br>° <a href="https://docs.arduino.cc/libraries/wifi/">WiFi</a> (biblioteca por Arduino);<br>
     <br>° <a href="https://www.arduino.cc/">Arduino ESP32 Boards</a> (placa por Arduino);<br>
     <br>° <a href="https://github.com/espressif/arduino-esp32">esp32</a> (placa por Espressif Systems).</br>
-  <br>- Na IDE, clique em File > Preferences > Additional boards Managers URLs, e adicione os links das placas e bibliotecas.<br>
-  <br>- Após a instalação da IDE e das bibliotecas e placas, o software está pronto para rodar o código C++.</br>
-  <br></br>
-  <br>HTML:</br>
-  <br>- Acessar o site do <a href="https://code.visualstudio.com"> Visual Studio Code</a> e instalar o VSCode.</br>
-  <br>- Após a instalação do VSCode, será necessário adicionar uma extensão para executar o código do servidor:</br>
+- Na IDE, clique em File > Preferences > Additional boards Managers URLs, e adicione os links das placas e bibliotecas.<br>
+- Após a instalação da IDE e das bibliotecas e placas, o software está pronto para rodar o código C++.<br>
+<br></br>
+<br>HTML</br>
+- Acessar o site do <a href="https://code.visualstudio.com"> Visual Studio Code</a> e instalar o VSCode.<br>
+- Após a instalação do VSCode, será necessário adicionar uma extensão para executar o código do servidor:<br>
     <br>° Baixe a extensão <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer">Live Server</a> (extensão por Ritwick Dey) no VSCode.</br>
-  <br>- Após a instalação do VSCode e da biblioteca, baixe o código HTML do projeto e estará pronto para o uso com o Live Server.</br>
+- Após a instalação do VSCode e da biblioteca, baixe o código HTML do projeto e estará pronto para o uso com o Live Server.<br>
