@@ -14,8 +14,9 @@
 //função para obter o arquivo.json enviado para o servidor do ESP32
         function obterDados() {
             fetch(`http://${ip}/dados`) // Chama a nova rota que retorna todos os dados
-                .then(response => response.json()) // Processa a resposta como JSON
+                .then(response => response.json()) // faz a resposta como JSON
                 .then(data => {
+                    
                     document.getElementById("umidade").innerText = "Umidade do Solo: " + data.umidade;
                     document.getElementById("Solo").innerText = "Condição atual do Solo: " + data.solo;
                     document.getElementById("Segundos").innerText = "Tempo desde a última vez ligada a bomba: " + data.segundos + " Segundos.";
