@@ -26,14 +26,12 @@ void loop() {
     Serial.println(valor);
     resultado = resultado + valor; //Soma de valores fornecidos pelas tentativas do sensor
     delay(10);
-  }
-  else if (i == 100) //Verificação de valor hipotético "i" é igual a 100
-  {
-  Serial.print("Total:");
-  Serial.println(resultado);
-  resultado = resultado / 100; //Fazendo a conta para calcular a acurácia
-  Serial.print("Média: ");
-  Serial.println(resultado);
-  i++;
+  } else if (i == 100) { //Caso a priumeira afirmação se prove falsa, haverá uma verificação de valor hipotético "i" para saber se ele é igual a 100
+    Serial.print("Total:");
+    Serial.println(resultado);
+    resultado = resultado / 100; //Fazendo a conta para calcular a acurácia
+    Serial.print("Média: ");
+    Serial.println(resultado);
+    i++;
   }
 }
