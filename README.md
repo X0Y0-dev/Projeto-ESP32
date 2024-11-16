@@ -42,6 +42,7 @@ A adaptabilidade é o ponto forte do projeto, permitindo sua aplicação em pequ
 |-->SRC<br>
   &emsp;|-->Frontend<br>
   &emsp;|-->Backend<br>
+|-->Imagens<br>
 |readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
