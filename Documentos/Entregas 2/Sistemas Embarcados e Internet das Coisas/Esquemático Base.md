@@ -1,7 +1,7 @@
 ![Esquematico_base](https://github.com/user-attachments/assets/f3190e24-ea81-416e-bf35-23342fa26526)
 
 ```CPP
-int Sensor = 33;
+int Sensor = 32;
 
 void checar(int Sensor)
 {
