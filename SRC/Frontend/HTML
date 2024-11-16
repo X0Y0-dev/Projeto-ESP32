@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt">
+// aqui fica oque é importante para o código e que não aparece na pagina para o cliente.
 <head>
+//configuração do texto da página
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//título da página
     <title>Monitor de Umidade do Solo</title>
+  //script para a obtenção de informações do esp32 por meio de coneção peer-to-peer
     <script>
-        const ip = '192.168.0.50'; // Substitua pelo IP do seu ESP32
+        const ip = '192.168.0.50'; // IP do ESP ps: não me hackeiem >:(
 
+//função para obter o arquivo.json enviado para o servidor do ESP32
         function obterDados() {
             fetch(`http://${ip}/dados`) // Chama a nova rota que retorna todos os dados
                 .then(response => response.json()) // Processa a resposta como JSON
