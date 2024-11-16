@@ -60,7 +60,7 @@ Há também 4 pastas que seguem da seguinte forma:
   - Arduino ESP32 Dev;<br>
   - Sensor de Umidade de Solo HL-69;<br>
   - Mini Bomba D'água Submersível;<br>
-  - Higrômetro;<br>
+  - Sonda Higrômetro;<br>
   - Relé;<br>
   - Protoboard;<br>
   - Jumpers.<br>
