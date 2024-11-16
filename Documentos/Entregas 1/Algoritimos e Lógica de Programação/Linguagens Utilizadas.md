@@ -24,7 +24,7 @@ Durante o nosso projeto, tivemos o uso constante de duas linguagens, sendo elas 
 Caso necessário, as informações sobre a documentação oficial podem ser encontradas no site oficial do <a href="https://isocpp.org/wiki/faq">ISO C++</a> juntamente ao site <a href="https://isocpp.org">C++ Reference</a>.
 
 <h2>Justificativa</h2>
-Ao programarmos um arduino, podemos usar algumas diversas linguagens, como, por exemplo, C, C++, Lua, Python, JavaScript e Assembly, entretanto, entre elas, as mais versáteis são justamente 
+Ao programarmos um arduino, podemos usar algumas diversas linguagens, como, por exemplo, C, C++, Lua, Python, JavaScript e Assembly, entretanto, entre elas, as mais versáteis são justamente C, C++ e Python. Por estarmos usando o software Arduino IDE, que possui apenas portabilidade para C e C++, optamos pelo C++, visto que ele é "mais completo" que a linguagem C.
 
 <h1>HTML5</h1>
 <h2>Histórico</h2>
