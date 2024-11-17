@@ -13,7 +13,7 @@ No Modelo Lógico, temos a configuração dos atributos, atribuindo valores a el
   - Limite_Superior(**FLOAT**).
 
 <br>° ***Medicao***:</br>
-  - [Primary Key] ID_Medicao (**INT**)/
+  - [Primary Key] ID_Medicao (**INT**);
   - Data_Hora (**TIMESTAMP**);
   - Valor (FLOAT);
   - [Foreign Key] fk_Sensor_Umidade_ID_Sensor (**INT**).
@@ -27,7 +27,7 @@ No Modelo Lógico, temos a configuração dos atributos, atribuindo valores a el
 
 <br>° ***Bomba_Agua***:</br>
   - [Primary Key] ID_Atuador (**INT**);
-  - Localizacao (**VARCJAR(255)***);
+  - Localizacao (**VARCJAR(255)**);
   - Estado (**BOOLEAN**);
   - [Foreign Key] fk_Acao_ID_Acao (**INT**).
 
