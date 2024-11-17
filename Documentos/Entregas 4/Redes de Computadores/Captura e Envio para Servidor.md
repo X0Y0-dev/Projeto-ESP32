@@ -5,7 +5,7 @@
 ## Trocando arquivos.
 
 Por meio do código, O servidor entrega por JSON as informações de:
-•	valor do sensor
+•	Valor do sensor
 •	Função de verificação do estado do solo
 •	Seguntos deis da ultima vez que a bomba d'agua foi ligada.
 Que estão sendo entregues para o Servidor com o dominio IP/dados. (192.168.0.50/dados)
@@ -70,7 +70,7 @@ O servidor está requerendo as informações do JSON:
 - Segundos
 
 
-<br> Tambem, mostrando na Interface do Cliente as informações separadamente obtidas do Servidor do ESP32.<br>
+<br> Também, mostrando na Interface do Cliente as informações separadamente obtidas do Servidor do ESP32.<br>
 
 
 ```HTML
