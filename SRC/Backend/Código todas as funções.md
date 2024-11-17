@@ -1,4 +1,4 @@
-# código completo! Projeto Irrigação!
+# Código Completo! Projeto Irrigação!
 
 Aqui temos o código completo para o projeto. Nossa tacada final!Esse código funciona com base na biblioteca WiFi e WebServer, que permitem que possamos abrir e configurar conexão de wifi, ip e servidores, assim, possibilitando também a troca de informações entre eles.<br>
 <br>Utilizamos uma mistura de código CPP e JSON disfarçado na parte da entrega de arquivos pelo servidor, facilitando a leitura do servidor Cliente com o ESP32.<br>
