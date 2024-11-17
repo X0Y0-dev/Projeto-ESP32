@@ -65,9 +65,9 @@ tambem envia um arquivo chamado "application/json" com as informações de resul
 O Servidor Cliente http://127.0.0.1:5500/ esta por meio das configurações do código, requisitando arquivos do Servidor ESP32 e retornando um Sucesso sempre que a requisição deu certo.
  
 O servidor está requerendo as informações do JSON:
-- Valores do sensor.
-- Estado do solo
-- Segundos
+- Valores do sensor;
+- Estado do solo;
+- Segundos.
 
 
 <br> Também, mostrando na Interface do Cliente as informações separadamente obtidas do Servidor do ESP32.<br>
