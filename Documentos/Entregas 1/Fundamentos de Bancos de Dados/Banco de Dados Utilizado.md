@@ -1,5 +1,5 @@
 # Tipo de Banco de dados Utilizado.
-## Tabélas
+## Tabelas
 <p> Oque é Banco de dados de Tabela.</p>
 Um banco de dados de tabela, também conhecido como banco de dados relacional, é um tipo de sistema de gerenciamento de banco de dados (SGBD) que organiza os dados em tabelas. 
 <br>Cada tabela é composta por linhas e colunas, onde:<br>
