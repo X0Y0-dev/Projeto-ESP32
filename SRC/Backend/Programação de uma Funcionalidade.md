@@ -1,5 +1,4 @@
 # Funcionalidade 
-Funcionalidade.
 O código pode possuir milhares de features incríveis e funcionalidades diferentes, mas seu procedimento principal será sempre este que liga e desliga a bomba de água. Este procedimento faz uma checagem do que o sensor de umidade do solo está captando, armazenando este valor em uma variável vazia e, com base no valor guardado, ele verifica se deve ou não ligar a bomba de água. Assim, apenas ligando somente quando necessário e evitando desperdício de água.
 
 
