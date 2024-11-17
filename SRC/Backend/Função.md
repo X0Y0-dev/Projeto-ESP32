@@ -1,7 +1,7 @@
 # Função usada no projeto
-uma das funções utilizadas no projeto é a função de checagem do estádo do solo, puxando o parametro sensor e usando do valor entregue por ele para checar qual tipo de resposta o programa deve da com base neste.
+Uma das funções utilizadas no projeto é a função de checagem do estádo do solo, puxando o parametro sensor e usando do valor entregue por ele para checar qual tipo de resposta o programa deve da com base neste.
 
-## código comentado
+## Código Comentado
 
 ```cpp
 //função que devolve uma string escrita com a situação atual do solo do sensor usando o parametro sensor.
