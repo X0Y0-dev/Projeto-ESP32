@@ -1,13 +1,18 @@
 # Diagrama Funcionamento do Sistema.
 
 ## PowerBanK
-![Power Bank para ESP32](https://github.com/user-attachments/assets/7493dc4a-1b89-4c55-8a3d-a7ae3d29cea0)
 
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/7493dc4a-1b89-4c55-8a3d-a7ae3d29cea0" alt="Imagem do computador" width="800" />
+</p>
 <br> O PowerBank ou outra fonte de energia deve energizar o ESP32 com 5V.<br>
+
 
 ## Sensor de Umidade. Ligue!
 
-![ESP para sensor](https://github.com/user-attachments/assets/be04140d-9e5a-4c85-8b87-e5f651b6486d)
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/be04140d-9e5a-4c85-8b87-e5f651b6486d" alt="Imagem do computador" width="800" />
+</p>
 
 Com o ESP energizado, ele fornecerá energia ao Sensor de umidade de solo e a partir disto, o sensor de umidade retornará valores pela porta 33 usando este código.
 ```cpp
@@ -36,7 +41,10 @@ void loop()
 ```
 <br><br>
 ## Conexão relé
-![ESP para Relé](https://github.com/user-attachments/assets/8a58f42c-e201-44e1-acd0-bbdc816d0e03)
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/8a58f42c-e201-44e1-acd0-bbdc816d0e03" alt="Imagem do computador" width="900" />
+</p>
+
 <br>O ESP32 fornece 3.3 V para o Relé operar e tambem oferece 5V para o a saída do relé.<br>
 <br>Com base nos dados do Sensor de umidade de solo, o Esp32 decidira de deve permitir a passagem de energia do relé ou se deve barrar a passagem de energia pela porta 32 usando este código<br>
 
