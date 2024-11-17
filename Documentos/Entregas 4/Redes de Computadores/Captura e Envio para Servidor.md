@@ -1,7 +1,8 @@
+# Servidor ESP32.
 
 ![ESP32](https://github.com/user-attachments/assets/1bd1d923-cc3a-49d5-869f-6020a2fab011)
 
-# Trocando arquivos.
+## Trocando arquivos.
 
 Por meio do código, O servidor entrega por JSON as informações de:
 •	valor do sensor
@@ -9,7 +10,7 @@ Por meio do código, O servidor entrega por JSON as informações de:
 •	Seguntos deis da ultima vez que a bomba d'agua foi ligada.
 Que estão sendo entregues para o Servidor com o dominio IP/dados. (192.168.0.50/dados)
 
-# Código
+## Código
 
 ```cpp
 #include <WiFi.h>
@@ -61,43 +62,60 @@ tambem envia um arquivo chamado "application/json" com as informações de resul
  
 ![HTML Server](https://github.com/user-attachments/assets/013383a3-9099-4e5f-8f96-f1735d7e27be)
 
-O Servidor Cliente esta por meio das configurações da imagem, requisitando arquivos do Servidor ESP32 e retornando um Sucesso sempre que a requisição deu certo.
+O Servidor Cliente http://127.0.0.1:5500/ esta por meio das configurações do código, requisitando arquivos do Servidor ESP32 e retornando um Sucesso sempre que a requisição deu certo.
  
-O servidor está requerendo as informações do sensor, do estado do solo e Segundos com sucesso sem dar nenhum erro de volta.
-<br> <br>
+O servidor está requerendo as informações do JSON:
+- Valores do sensor.
+- Estado do solo
+- Segundos
+
+
+<br> Tambem, mostrando na Interface do Cliente as informações separadamente obtidas do Servidor do ESP32.<br>
+
 
 ```HTML
 <!DOCTYPE html>
 <html lang="pt">
+// aqui fica oque é importante para o código e que não aparece na pagina para o cliente.
 <head>
+//configuração do texto da página
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+//título da página
     <title>Monitor de Umidade do Solo</title>
+  //script para a obtenção de informações do esp32 por meio de coneção peer-to-peer
     <script>
-        const ip = '192.168.0.50'; // Substitua pelo IP do seu ESP32
+        const ip = '192.168.0.50'; // IP do ESP ps: não me hackeiem >:(
 
+//função para obter o arquivo.json enviado para o servidor do ESP32
         function obterDados() {
-            fetch(`http://${ip}/dados`) // Chama a nova rota que retorna todos os dados
-                .then(response => response.json()) // Processa a resposta como JSON
+
+//aqui é a parte importante. aqui ele vai buscar pelo fetch no site http:// o IP do esp/dados. Site este que está sendo criado pelo ESP32.
+            fetch(`http://${ip}/dados`)
+                .then(response => response.json()) // faz a resposta como JSON
                 .then(data => {
+                    //entrega informações para algum lugar do código por Id.
                     document.getElementById("umidade").innerText = "Umidade do Solo: " + data.umidade;
                     document.getElementById("Solo").innerText = "Condição atual do Solo: " + data.solo;
                     document.getElementById("Segundos").innerText = "Tempo desde a última vez ligada a bomba: " + data.segundos + " Segundos.";
                 })
+                  //caso o fetch tenha entregue um erro, ele escreverá no Console do site um erro.
                 .catch(error => {
                     console.error('Erro:', error);
                 });
         }
 
-        // Atualiza os dados a cada 2 segundos
+        // atualiza os dados a cada 2 segundos as informações do site
         setInterval(obterDados, 2000);
     </script>
 </head>
+//aqui é oque vai aparecer no site
 <body>
     <h1>Monitor de Umidade do Solo</h1>
+//coloca um id para cada linha para poder receber informaçõesa pela head
     <p id="umidade">Umidade do Solo: Carregando...</p>
-    <p id="Segundos">Ligado última vez:</p>
-    <p id="Solo">Condição do Solo:</p>
+    <p id="Segundos">Segundos deis da última vez:</p>
+    <p id="Solo">Condição Atual do Solo:</p>
 </body>
 </html>
 
