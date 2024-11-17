@@ -1,23 +1,54 @@
 # Diagrama Funcionamento do Sistema.
 
 ## PowerBanK
-<br> O PowerBank ou outra fonte de energia deve energizar o ESP32 com 5V.<br>
-<br><br>
 ![Power Bank para ESP32](https://github.com/user-attachments/assets/7493dc4a-1b89-4c55-8a3d-a7ae3d29cea0)
-<br> <br>
-<br> <br>
+
+<br> O PowerBank ou outra fonte de energia deve energizar o ESP32 com 5V.<br>
+
 ## Sensor de Umidade. Ligue!
+
 ![ESP para sensor](https://github.com/user-attachments/assets/be04140d-9e5a-4c85-8b87-e5f651b6486d)
 
+Com o ESP energizado, ele fornecerá energia ao Sensor de umidade de solo e a partir disto, o sensor de umidade retornará valores a partir deste código.
+```cpp
+int Sensor = 33;
+int valor = 0;
+void checar(int Sensor, int rele) {
+    int valor = analogRead(Sensor);
+    Serial.println("valor Sensor");
+    Serial.println(valor);
+}
+```
+<br><br>
 ## Conexão relé
-<br><br>
-<br>O ESP32 fornece 3.3V para o sensor de umidade, fazendo com que ele comece a operar e fornecer o valor para o ESP32.
-<br><br>
 ![ESP para Relé](https://github.com/user-attachments/assets/8a58f42c-e201-44e1-acd0-bbdc816d0e03)
-<br><br>
-<br><br>
+<br>O ESP32 fornece 3.3 V para o Relé operar e tambem oferece 5V para o a saída do relé.<br>
+<br>Com base nos dados do Sensor de umidade de solo, o Esp32 decidira de deve permitir a passagem de energia do relé ou se deve barrar a passagem de energia usando este código<br>
+
+```cpp
+void checar(int Sensor, int rele) {
+    int valor = analogRead(Sensor);
+    Serial.println("valor Sensor");
+    Serial.println(valor);
+    // se estiver menor a umidez do solo que tal quantia defult:1500
+    if (valor < 3500) {
+        // se a terra estiver seca
+        digitalWrite(rele, LOW);
+        Serial.println("Permitir passagem");
+    } else {
+        // se ela não estiver seca
+        digitalWrite(rele, HIGH);
+        Serial.println("Barrar passagem");
+    }
+}
+
+```
+
+## Ligar Bomba!
+
+![completo](https://github.com/user-attachments/assets/e7d06e68-cde2-4d0a-8932-7a195a178bc4)
+
 <br>o relé é a parte crucial para que possamos decidir quando manter a bomba D'água ligada e quando devemos manter desligado.
-<br>O ESP fornece 3,3V para que o Relé possa funcionar e 5V na entrada central da frente do Rele para que ele possa distribuir 5V para o lugar designado.
+
 <br>O ESP32 em base nos valores recebidos pelo Sensor de umidade com a programação, decide se o Relé deve permitir a passagem de 5V ou não. 
 <br><br>
-![completo](https://github.com/user-attachments/assets/e7d06e68-cde2-4d0a-8932-7a195a178bc4)
