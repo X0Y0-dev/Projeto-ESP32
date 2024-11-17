@@ -15,7 +15,7 @@ No Modelo Lógico, temos a configuração dos atributos, atribuindo valores a el
 <br>° ***Medicao***:</br>
   - [Primary Key] ID_Medicao (**INT**);
   - Data_Hora (**TIMESTAMP**);
-  - Valor (FLOAT);
+  - Valor (**FLOAT**);
   - [Foreign Key] fk_Sensor_Umidade_ID_Sensor (**INT**).
 
 <br>° ***Acao***:</br>
