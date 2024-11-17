@@ -1,4 +1,11 @@
 # Tipo de Banco de dados Utilizado.
 ## Tabélas
- O banco de dados de tabéla foi uitlizado pois se encaixa melhor com o tipo de informação necessárias que queremos mostrar ao cliente.
-por conta do modo em que o banco de dados tabéla é organizado, facilida a leitura das informações para cliente, no caso, pela separação de informações por colunas e tuplas, podendo separar todas as informações do ESP32 em uma só linha.
+<p> Oque é Banco de dados de Tabela.</p>
+Um banco de dados de tabela, também conhecido como banco de dados relacional, é um tipo de sistema de gerenciamento de banco de dados (SGBD) que organiza os dados em tabelas. 
+<br>Cada tabela é composta por linhas e colunas, onde:<br>
+
+<br>Linhas representam entradas individuais de dados.<br>
+Colunas representam os atributos ou características dos dados.<br>
+
+O banco de dados de tabela foi utilizado, pois se encaixa melhor com o tipo de informação necessárias que queremos mostrar ao cliente.
+Por conta do modo em que o banco de dados tabela é organizado, facilita a leitura das informações para cliente, no caso, pela separação de informações por colunas e tuplas, podendo separar todas as informações do ESP32 em uma só linha.
