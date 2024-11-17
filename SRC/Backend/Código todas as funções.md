@@ -51,13 +51,13 @@ String Solo(int Sensor) {
         resultado = "Solo Ressecado!";
     } 
     else if (valor >= 1200 && valor < 2800) {
-        resultado = "Solo Umido!";
+        resultado = "Solo Umido!!";
     } 
     else if (valor >=2800 && valor < 3300) {
-        resultado = "Solo Molhado!";
+        resultado = "Solo Molhado!!!";
     } 
     else if (valor >= 3300 && valor <= 4100) {
-        resultado = "Solo Encharcado!";
+        resultado = "Solo Encharcado!!!!";
     }
 //retorna valor de resultado
     return resultado;
