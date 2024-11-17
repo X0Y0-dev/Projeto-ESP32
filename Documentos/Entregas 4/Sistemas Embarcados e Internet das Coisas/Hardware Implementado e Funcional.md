@@ -1,6 +1,6 @@
 # Diagrama Funcionamento do Sistema.
 
-## PowerBanK
+## PowerBank
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/7493dc4a-1b89-4c55-8a3d-a7ae3d29cea0" alt="Imagem do computador" width="800" />
@@ -81,7 +81,7 @@ void loop()
 
 ![completo](https://github.com/user-attachments/assets/e7d06e68-cde2-4d0a-8932-7a195a178bc4)
 
-<br>o relé é a parte crucial para que possamos decidir quando manter a bomba D'água ligada e quando devemos manter desligado.
+<br>O relé é a parte crucial para que possamos decidir quando manter a bomba D'água ligada e quando devemos manter desligado.
 
 <br>O ESP32 em base nos valores recebidos pelo Sensor de umidade com a programação, decide se o Relé deve permitir a passagem de 5V para a bomba d'agua ou não. 
 <br>Enquanto estiver permitindo a passagem de energia, estará entregando água, caso contrario, a bomba estará desligada.
