@@ -2,7 +2,8 @@ Durante o nosso projeto, tivemos o uso constante de duas linguagens, sendo elas 
 
 <h1>C++</h1>
 <h2>Histórico</h2>
-<br>Primeiramente, antes do C++, há a linguagem C.</br>
+Primeiramente, antes do C++, há a linguagem C.
+<br></br>
 <p align="center">
     <img src="https://github.com/user-attachments/assets/b11513f9-0b0b-485c-873b-94a660017970" alt="Imagem do computador" width="400" />
 </p>
